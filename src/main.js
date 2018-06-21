@@ -32,7 +32,7 @@ Vue.use(elementUIVerify, {
 // 注册一些全局组件
 Vue.use(regComponents)
 
-require(process.env.VUE_APP_MOCK ? './mock/index' : null)
+// require(process.env.VUE_APP_MOCK ? './mock/index' : null)
 
 Vue.config.productionTip = false
 Vue.use(utils)
